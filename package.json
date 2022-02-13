@@ -1,7 +1,7 @@
 {
   "name": "@ulisesantana/diff-lines",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.7",
+  "description": "This project make a diff between two files and extract the unique and common lines based only on values instead of values and position.",
   "bin": {
     "diff-lines": "bin/main.js"
   },

@@ -6,8 +6,7 @@
 [![Downloads/week](https://img.shields.io/npm/dw/@ulisesantana%2Fdiff-lines.svg)](https://npmjs.org/package/@ulisesantana/diff-lines)
 [![License](https://img.shields.io/npm/l/@ulisesantana%2Fdiff-lines.svg)](https://github.com/ulisesantana/diff-lines/blob/master/package.json)
 
-This project make a diff between two files and extract the unique and common 
-lines based only on values instead of values and position.
+This project make a diff between two files and extract the unique and common lines based only on values instead of values and position.
 
 ![Use example](docs/use.png)
 
