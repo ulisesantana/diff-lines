@@ -18,6 +18,11 @@
   },
   "author": "Ulises Santana <ulisesantana@gmail.com> (https://ulisesantana.dev)",
   "license": "MIT",
+  "keywords": [
+    "diff",
+    "comparer",
+    "cli"
+  ],
   "dependencies": {
     "stdio": "^2.1.1"
   },
