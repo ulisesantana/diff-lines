@@ -1,7 +1,8 @@
 {
   "name": "@ulisesantana/diff-lines",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
+  "private": false,
   "bin": {
     "diff-lines": "bin/main.js"
   },
