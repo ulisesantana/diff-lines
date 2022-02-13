@@ -1,6 +1,6 @@
 {
-  "name": "diff-lines",
-  "version": "1.0.3",
+  "name": "@ulisesantana/diff-lines",
+  "version": "1.0.4",
   "description": "",
   "bin": {
     "diff-lines": "bin/main.js"
