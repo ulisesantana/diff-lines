@@ -16,6 +16,10 @@
     "tag": "TAG=v$(node -pe \"require('./package.json').version\"); git commit -am \"🔖 $TAG\" && git tag $TAG && git push --tags",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesantana/diff-lines.git"
+  },
   "author": "Ulises Santana <ulisesantana@gmail.com> (https://ulisesantana.dev)",
   "license": "MIT",
   "keywords": [
