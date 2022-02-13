@@ -10,6 +10,8 @@
     "bin"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest"
   },
   "author": "Ulises Santana <ulisesantana@gmail.com> (https://ulisesantana.dev)",
