@@ -1,5 +1,8 @@
 # diff-lines
 
+[![Build Status](https://app.travis-ci.com/ulisesantana/diff-lines.svg?branch=main)](https://app.travis-ci.com/ulisesantana/diff-lines)
+[![codecov](https://codecov.io/gh/ulisesantana/diff-lines/branch/main/graph/badge.svg?token=RuP84Q4Un9)](https://codecov.io/gh/ulisesantana/diff-lines)
+
 This project make a diff between two files and extract the unique and common 
 lines based only on values instead of values and position.
 
