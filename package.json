@@ -10,8 +10,10 @@
     "bin"
   ],
   "scripts": {
+    "prepublishOnly": "npm run tag",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
+    "tag": "TAG=v$(node -pe \"require('./package.json').version\"); git commit -am \"🔖 $TAG\" && git tag $TAG && git push --tags",
     "test": "jest"
   },
   "author": "Ulises Santana <ulisesantana@gmail.com> (https://ulisesantana.dev)",
