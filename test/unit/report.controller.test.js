@@ -27,9 +27,9 @@ describe('Report controller should', () => {
   })
 
   it.each([
-    { test: 'full report', options: {}, expectedOutputFile: 'full-a-b' },
-    { test: 'unique report', options: { unique: true }, expectedOutputFile: 'unique-a-b' },
-    { test: 'common report', options: { common: true }, expectedOutputFile: 'common-a-b' }
+    { test: 'full report', options: {}, expectedOutputFile: 'full-a-b.txt' },
+    { test: 'unique report', options: { unique: true }, expectedOutputFile: 'unique-a-b.txt' },
+    { test: 'common report', options: { common: true }, expectedOutputFile: 'common-a-b.txt' }
   ])('if no output file name is given generate a default one for $test',
     async ({ options, expectedOutputFile }) => {
       const useCase = { execute: jest.fn() }

@@ -34,7 +34,7 @@ class ReportController {
       : !unique && common
           ? 'common'
           : 'full'
-    return `${kind}-${path.basename(file1, path.extname(file1))}-${path.basename(file2, path.extname(file2))}`
+    return `${kind}-${path.basename(file1, path.extname(file1))}-${path.basename(file2, path.extname(file2))}.txt`
   }
 }
 
